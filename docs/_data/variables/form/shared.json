@@ -1,5 +1,12 @@
 {
   "by_name": {
+    "$form-colors": {
+      "name": "$form-colors",
+      "value": "$colors",
+      "type": "variable",
+      "computed_type": "map",
+      "computed_value": "Bulma colors"
+    },
     "$input-color": {
       "name": "$input-color",
       "value": "$text-strong",
@@ -29,7 +36,7 @@
     "$input-shadow": {
       "name": "$input-shadow",
       "value": "inset 0 0.0625em 0.125em rgba($scheme-invert, 0.05)",
-      "type": "size"
+      "type": "shadow"
     },
     "$input-placeholder-color": {
       "name": "$input-placeholder-color",
@@ -62,7 +69,7 @@
       "value": "$link",
       "type": "variable",
       "computed_type": "color",
-      "computed_value": "hsl(217, 71%,  53%)"
+      "computed_value": "hsl(229, 53%,  53%)"
     },
     "$input-focus-box-shadow-size": {
       "name": "$input-focus-box-shadow-size",
@@ -105,7 +112,7 @@
       "value": "$link",
       "type": "variable",
       "computed_type": "color",
-      "computed_value": "hsl(217, 71%,  53%)"
+      "computed_value": "hsl(229, 53%,  53%)"
     },
     "$input-icon-color": {
       "name": "$input-icon-color",
@@ -130,6 +137,7 @@
     }
   },
   "list": [
+    "$form-colors",
     "$input-color",
     "$input-background-color",
     "$input-border-color",

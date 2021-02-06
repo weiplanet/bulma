@@ -46,17 +46,17 @@
     },
     "$navbar-item-color": {
       "name": "$navbar-item-color",
-      "value": "$text",
+      "value": "$text-strong",
       "type": "variable",
       "computed_type": "color",
-      "computed_value": "hsl(0, 0%, 29%)"
+      "computed_value": "hsl(0, 0%, 21%)"
     },
     "$navbar-item-hover-color": {
       "name": "$navbar-item-hover-color",
       "value": "$link",
       "type": "variable",
       "computed_type": "color",
-      "computed_value": "hsl(217, 71%,  53%)"
+      "computed_value": "hsl(229, 53%,  53%)"
     },
     "$navbar-item-hover-background-color": {
       "name": "$navbar-item-hover-background-color",
@@ -97,14 +97,14 @@
       "value": "$link",
       "type": "variable",
       "computed_type": "color",
-      "computed_value": "hsl(217, 71%,  53%)"
+      "computed_value": "hsl(229, 53%,  53%)"
     },
     "$navbar-tab-active-color": {
       "name": "$navbar-tab-active-color",
       "value": "$link",
       "type": "variable",
       "computed_type": "color",
-      "computed_value": "hsl(217, 71%,  53%)"
+      "computed_value": "hsl(229, 53%,  53%)"
     },
     "$navbar-tab-active-background-color": {
       "name": "$navbar-tab-active-background-color",
@@ -116,7 +116,7 @@
       "value": "$link",
       "type": "variable",
       "computed_type": "color",
-      "computed_value": "hsl(217, 71%,  53%)"
+      "computed_value": "hsl(229, 53%,  53%)"
     },
     "$navbar-tab-active-border-bottom-style": {
       "name": "$navbar-tab-active-border-bottom-style",
@@ -150,7 +150,7 @@
       "value": "$link",
       "type": "variable",
       "computed_type": "color",
-      "computed_value": "hsl(217, 71%,  53%)"
+      "computed_value": "hsl(229, 53%,  53%)"
     },
     "$navbar-dropdown-radius": {
       "name": "$navbar-dropdown-radius",
@@ -174,7 +174,7 @@
     "$navbar-dropdown-boxed-shadow": {
       "name": "$navbar-dropdown-boxed-shadow",
       "value": "0 8px 8px bulmaRgba($scheme-invert, 0.1), 0 0 0 1px bulmaRgba($scheme-invert, 0.1)",
-      "type": "size"
+      "type": "shadow"
     },
     "$navbar-dropdown-item-hover-color": {
       "name": "$navbar-dropdown-item-hover-color",
@@ -195,7 +195,7 @@
       "value": "$link",
       "type": "variable",
       "computed_type": "color",
-      "computed_value": "hsl(217, 71%,  53%)"
+      "computed_value": "hsl(229, 53%,  53%)"
     },
     "$navbar-dropdown-item-active-background-color": {
       "name": "$navbar-dropdown-item-active-background-color",
@@ -227,6 +227,13 @@
       "type": "variable",
       "computed_type": "computed",
       "computed_value": "960px + (2 * $gap)"
+    },
+    "$navbar-colors": {
+      "name": "$navbar-colors",
+      "value": "$colors",
+      "type": "variable",
+      "computed_type": "map",
+      "computed_value": "Bulma colors"
     }
   },
   "list": [
@@ -267,7 +274,8 @@
     "$navbar-divider-background-color",
     "$navbar-divider-height",
     "$navbar-bottom-box-shadow-size",
-    "$navbar-breakpoint"
+    "$navbar-breakpoint",
+    "$navbar-colors"
   ],
   "file_path": "components/navbar.sass"
 }

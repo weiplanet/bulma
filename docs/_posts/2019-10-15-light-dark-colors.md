@@ -2,9 +2,12 @@
 title: "Light and Dark colors, better look, larger form controls, panel colors, and more"
 layout: post
 introduction: "A big update for more colors and flexibility"
-color: "primary"
+color: "expo"
 name: "Light/Dark colors, better look, larger controls"
 icon: "sun"
+featured: true
+image: hgGplX3PFBg
+alt: "Light and dark clouds"
 ---
 
 The new version **[Bulma 0.8.0](https://github.com/jgthms/bulma/releases/tag/0.8.0)** is out! 😃 It comes with several bug fixes and a lot of nice new features:
@@ -23,7 +26,7 @@ More in the [Changelog](https://github.com/jgthms/bulma/releases/tag/0.8.0).
 Each main color (`"primary"`, `"info"`, `"success"`, `"warning"`, `"danger"`) now comes with a `*-light` and a `*-dark` version. They are calculated using 2 new color functions:
 
 * `findLightColor()` which finds the light version of a color
-* `findDarkolor()` which finds the dark version of a color
+* `findDarkColor()` which finds the dark version of a color
 
 The **light** colors are used by the `button` element:
 

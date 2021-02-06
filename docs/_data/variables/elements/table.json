@@ -109,6 +109,13 @@
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 96%)"
+    },
+    "$table-colors": {
+      "name": "$table-colors",
+      "value": "$colors",
+      "type": "variable",
+      "computed_type": "map",
+      "computed_value": "Bulma colors"
     }
   },
   "list": [
@@ -129,7 +136,8 @@
     "$table-row-active-background-color",
     "$table-row-active-color",
     "$table-striped-row-even-background-color",
-    "$table-striped-row-even-hover-background-color"
+    "$table-striped-row-even-hover-background-color",
+    "$table-colors"
   ],
   "file_path": "elements/table.sass"
 }

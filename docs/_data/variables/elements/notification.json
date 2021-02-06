@@ -25,13 +25,33 @@
       "name": "$notification-padding",
       "value": "1.25rem 2.5rem 1.25rem 1.5rem",
       "type": "size"
+    },
+    "$notification-padding-ltr": {
+      "name": "$notification-padding-ltr",
+      "value": "1.25rem 2.5rem 1.25rem 1.5rem",
+      "type": "size"
+    },
+    "$notification-padding-rtl": {
+      "name": "$notification-padding-rtl",
+      "value": "1.25rem 1.5rem 1.25rem 2.5rem",
+      "type": "size"
+    },
+    "$notification-colors": {
+      "name": "$notification-colors",
+      "value": "$colors",
+      "type": "variable",
+      "computed_type": "map",
+      "computed_value": "Bulma colors"
     }
   },
   "list": [
     "$notification-background-color",
     "$notification-code-background-color",
     "$notification-radius",
-    "$notification-padding"
+    "$notification-padding",
+    "$notification-padding-ltr",
+    "$notification-padding-rtl",
+    "$notification-colors"
   ],
   "file_path": "elements/notification.sass"
 }

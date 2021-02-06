@@ -7,6 +7,13 @@
       "width":"108",
       "height":"40"
     },
+    "tutlance": {
+      "name": "tutlance",
+      "url": "https://tutlance.com/",
+      "width":"135",
+      "height":"42",
+      "follow": true
+    },
     "themeisle": {
       "name": "themeisle",
       "url": "https://themeisle.com/",
@@ -85,7 +92,7 @@
     "papersowl": {
       "name": "PapersOwl",
       "url": "https://papersowl.com/write-my-essay-please",
-      "title": "Website that writes your essay",
+      "title": "write my essay please",
       "width":"126",
       "height":"42",
       "follow": true
@@ -143,8 +150,8 @@
     },
     "edusson": {
       "name": "edusson",
-      "url": "https://edusson.com/",
-      "title": "Essay writing service",
+      "url": "https://edusson.com/write-my-research-paper",
+      "title": "write my research paper",
       "width":"104",
       "height":"20",
       "follow": true
@@ -185,7 +192,8 @@
       "url": "https://www.realtimecommunicationsworld.com/",
       "title": "Real Time Communications World",
       "width":"120",
-      "height":"57"
+      "height":"57",
+      "follow": true
     },
     "polygon": {
       "name": "Polygon.io",
@@ -208,36 +216,139 @@
       "title": "Bonusfinder",
       "width":"160",
       "height":"34"
+    },
+    "pillarwm": {
+      "name": "pillarwm",
+      "url": "https://pillarwm.com/",
+      "title": "Pillar",
+      "width":"150",
+      "height":"53"
+    },
+    "sanyodigital": {
+      "name": "sanyodigital",
+      "url": "https://sanyodigital.com/",
+      "title": "Sanyo Digital",
+      "width":"160",
+      "height":"33"
+    },
+    "coupons4printing": {
+      "name": "coupons4printing",
+      "url": "https://www.coupons4printing.com/",
+      "title": "Coupons For Printing",
+      "width":"60",
+      "height":"60",
+      "follow": true
+    },
+    "inkoop": {
+      "name": "inkoop",
+      "url": "https://www.inkoop.io/",
+      "title": "Inkoop - Website/App development company",
+      "width":"150",
+      "height":"43",
+      "noopener": true
+    },
+    "vpnreview": {
+      "name": "vpnreview",
+      "url": "https://vpn-review.com/netflix-vpn",
+      "title": "vpn for netflix",
+      "width":"137",
+      "height":"85"
+    },
+    "dfds": {
+      "name": "dfds",
+      "url": "https://www.dietfooddeliveryservice.com/",
+      "title": "Diet Food Delivery Service",
+      "width":"60",
+      "height":"60",
+      "follow": true
+    },
+    "rajbet": {
+      "name": "rajbet",
+      "url": "https://raj.bet/",
+      "title": "Online Casino",
+      "width":"128",
+      "height":"50",
+      "follow": true
+    },
+    "gamblizard": {
+      "name": "gamblizard",
+      "url": "https://gamblizard.com/",
+      "title": "Gamblizard",
+      "width":"182",
+      "height":"30",
+      "follow": true
+    },
+    "casinofiables": {
+      "name": "Casino Fiables",
+      "url": "https://casinofiables.com/",
+      "title": "Casino Fiables",
+      "width":"150",
+      "height":"24",
+      "follow": true
+    },
+    "123calendars": {
+      "name": "123Calendars",
+      "url": "https://www.123calendars.com/",
+      "title": "2021 Calendar",
+      "width":"125",
+      "height":"28",
+      "follow": true
+    },
+    "quickbookstoolhub": {
+      "name": "quickbookstoolhub",
+      "url": "https://quickbookstoolhub.com/",
+      "title": "Quickbooks Tool Hub",
+      "width":"64",
+      "height":"64"
+    },
+    "pondr": {
+      "name": "pondr",
+      "url": "https://runpondr.com/",
+      "title": "Pondr Idea Management",
+      "width":"126",
+      "height":"38",
+      "follow": true
+    },
+    "aussiecasinohex": {
+      "name": "aussiecasinohex",
+      "url": "https://aussiecasinohex.com/",
+      "title": "AussieCasinoHEX.com",
+      "width":"170",
+      "height":"60",
+      "follow": true
     }
   },
   "home": [
     "themeisle"
-    ,"tooltwist"
-    ,"dontpayfull"
-    ,"devsquad"
     ,"vpsserver"
-    ,"craft"
-    ,"paperleaf"
-    ,"papersowl"
     ,"sparheld"
-    ,"bid4papers"
     ,"writersperhour"
-    ,"searchpromocodes"
     ,"clothingric"
-    ,"edubirdie"
-    ,"edusson"
     ,"emucoupon"
     ,"namobot"
     ,"firesticktricks"
     ,"airtract"
     ,"realtimecommunications"
     ,"polygon"
-    ,"cooltechzone"
     ,"bonusfinder"
     ,"monovm"
+    ,"pillarwm"
+    ,"coupons4printing"
+    ,"papersowl"
+    ,"edusson"
+    ,"inkoop"
+    ,"dfds"
+    ,"rajbet"
+    ,"gamblizard"
+    ,"casinofiables"
+    ,"123calendars"
+    ,"quickbookstoolhub"
+    ,"pondr"
+    ,"aussiecasinohex"
   ],
   "footer": [
-    "writersperhour"
-    ,"polygon"
+    "polygon"
+    ,"inkoop"
+    ,"pondr"
   ]
 }
